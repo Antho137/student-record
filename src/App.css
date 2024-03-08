@@ -1,0 +1,123 @@
+.header {
+	width: 100%;
+	position: fixed;
+  top: 0;
+  z-index: 2;
+  color: rgb(250, 250, 250);
+	background-color: #A52A2A;
+  border-bottom: 1px solid #A52A2A;
+}
+
+.header, .intro, h3 {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.625rem;
+}
+
+.intro {
+  position: relative;
+  top: 70px;
+  margin: 0;
+  padding: 5px 20px 30px;
+  background-color: #FAEBD7;
+}
+
+.intro h2, .records h3 {
+  color: #A52A2A;
+}
+
+.intro p {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.125rem;
+}
+
+.records {
+	width: 100%;
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
+  padding: 30px 0;
+  background-color: #FFDAB9;
+}
+
+.record-form {
+  margin-top: 20px;
+}
+
+.student-table {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.record-form input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+
+.submit-btn, .update-btn {
+  width: 100%;
+  margin: 5px 0 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 7px;
+  cursor: pointer;
+  color: rgb(250, 250, 250);
+	background-color: #A52A2A;
+}
+
+.edit-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+table td:nth-child(3), table td:nth-child(4) {
+  text-align: center;
+}  
+
+table, th, td {
+  border-collapse: collapse;
+  border: 2px solid #fff;
+}
+
+th, td {
+  padding: 5px 10px;
+}
+
+.action {
+  cursor: pointer;
+  color: #0000ff;
+}
+
+@media only screen and  (min-width: 768px) {  
+
+.intro, .records {
+  position: relative;
+  top: 70px;
+}
+
+  .intro p {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .records {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+
+  .student-table {
+    margin-top: 20px;
+  }
+}
