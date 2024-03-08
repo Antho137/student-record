@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/student-record/static/css/main.6c654a1e.css",
+    "main.js": "/student-record/static/js/main.f6606ba9.js",
+    "index.html": "/student-record/index.html",
+    "main.6c654a1e.css.map": "/student-record/static/css/main.6c654a1e.css.map",
+    "main.f6606ba9.js.map": "/student-record/static/js/main.f6606ba9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c654a1e.css",
+    "static/js/main.f6606ba9.js"
+  ]
+}
